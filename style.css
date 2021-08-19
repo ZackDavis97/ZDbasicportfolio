@@ -16,18 +16,12 @@ body {
     color: black;
     display: flex;
     justify-content: flex-end;
-    background-color: #0072bb;
+    background-color: white;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 .zac {
-    color: #d9dcd6;
-    display: inline-block;
-    justify-content: start;
 }
 
 img {
@@ -37,6 +31,19 @@ img {
     height: 200px;
 }
 
+#Me {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+  }
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,36 +52,36 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    
-}
-
-nav ul li {
+nav a {
     display: inline-block;
-    margin-left: 25px;
-}
-
-li a {
-    text-decoration: none;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
     color: black;
-}
-
-li a:hover {
-    color: pink;
-}
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+nav a:first-child {
+    border-left: 0 none;
+  }
+  
+nav a:hover {
+    color: grey;
+  }
 
 p {
     line-height: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 50px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     width: 80%;
     justify-content: right;
     display: flex;
+    color: black;
 }
 
 section {

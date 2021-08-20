@@ -1,16 +1,14 @@
 ## My Portfolio READ.me
 
-This is my first attempt at making a portfolio of myself. I think it well given I did have some growing pains over the hours. I have made multiple commits to constantly update my repo when code has been added or I caught mistakes.
+This updated portfolio has added some new features that were not in the previous version from a couple of weeks ago. With the exception of 1/3 of the code, the rest has been changed or deleted in some way. Below is the list of the new editions to the portfolio.
 
-* Used Hhtml href links to tell the code to move to a specific section of the page. (I.e. the contact button being pressed and going to the contact section of the page)
+* Instead of the navbar links before, there is new navbar functions that tie to new pages including a contact and portfolio htlm. This cut down on some of the extra code and make the code look clean and simple. 
 
-* An updated picture of me was added to the page to show who I am.
+* In the contact html there is 3 links for my github, linkedin and gmail accounts. These can be accessed by pressing on the coresponding images.
 
-* Each section was split up in the html to give a break, though the css is mostly all together instead of spread out
+* The portfolio html has a list of the assignments I have worked on so far and can be accessed by clicking on the term for the assignment. They also have a image that relates to the project as a nice visual for people.
 
-* Used Lorem (Tab) as a space filler for the time being until further improvements are made to the page
-
-* When the navigation bar buttons are hovered over they will glow pink. This was done in css.
+* The about me section has been simplified to give a brief insight into me and my background. 
 
 https://github.com/ZackDavis97/ZDbasicportfolio
 

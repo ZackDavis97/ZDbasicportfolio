@@ -100,8 +100,9 @@ section {
 }
 
 .sub-container {
-    text-align: center;
+    text-align: left;
     align-content: center;
+    text-decoration: white;
 }
 
 .flex-container {

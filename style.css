@@ -105,3 +105,24 @@ footer {
 .work {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 640px) {
+  
+h1 {
+    float: none;
+    margin: auto;
+    text-align: center;
+    border-style: none;
+}
+    
+a {
+    top: 0px;
+    margin: auto;
+}
+
+nav {
+    float: none;
+    margin-right: 0px;
+}
+
+}
